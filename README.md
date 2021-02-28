@@ -1,0 +1,2 @@
+# MSI-B250M-MORTAR
+Hackintosh OpenCore EFI for MSI B250M MORTAR
