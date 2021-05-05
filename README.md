@@ -10,6 +10,6 @@ Ethernet           Intel I219-V
 Wi-Fi              Broadcom BCM94352HMB
 Monitor            FHD 1920x1080
 BIOS Verison       E7A69IMS.260 06/29/2018
-macOS Verison      Big Sur 11.2
-OpenCore Version   0.6.8
+macOS Verison      Big Sur 11.3
+OpenCore Version   0.6.9
 ```
