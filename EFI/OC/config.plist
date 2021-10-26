@@ -577,9 +577,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02736104GUJ0PGUE</string>
+			<string>C02715270J9J0PGJA</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1541</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -589,18 +589,18 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VC0P3J1GJ</string>
+			<string>C02TKPY2J1GJ</string>
 			<key>SystemUUID</key>
-			<string>B8B49425-6A6B-407C-B999-9B4E9BE565D8</string>
+			<string>FD82199A-6F27-4679-A3A3-1AE992C8AD78</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>01/05/2021</string>
+			<string>06/13/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>429.80.1.0.0</string>
+			<string>429.140.8.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -610,7 +610,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C02736104GUJ0PGUE</string>
+			<string>C02715270J9J0PGJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -620,15 +620,15 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02VC0P3J1GJ</string>
+			<string>C02TKPY2J1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>FirmwareFeatures</key>
-			<data>dvUP/QAAAAA=</data>
+			<data>dvUP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>P/8f/wgAAAA=</data>
 			<key>PlatformFeature</key>
 			<integer>0</integer>
 			<key>ProcessorType</key>
@@ -644,9 +644,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VC0P3J1GJ</string>
+			<string>C02TKPY2J1GJ</string>
 			<key>SystemUUID</key>
-			<string>B8B49425-6A6B-407C-B999-9B4E9BE565D8</string>
+			<string>FD82199A-6F27-4679-A3A3-1AE992C8AD78</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
