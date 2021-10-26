@@ -121,7 +121,7 @@
 					<key>HS09</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS09</string>
 						<key>port</key>
