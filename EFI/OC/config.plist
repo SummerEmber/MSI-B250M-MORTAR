@@ -18,7 +18,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
 			</dict>
@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-NVME.aml</string>
 			</dict>
@@ -146,13 +146,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -164,13 +164,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -488,7 +488,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>7</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -515,12 +515,14 @@
 				<string></string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
+				<key>prev-lang:kbd</key>
+				<data>emgtSGFuczoyNTI=</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
 		<key>LegacyEnable</key>
-		<false/>
+		<true/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -541,9 +543,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02703108GUJ0PGA8</string>
+			<string>C02736104GUJ0PGUE</string>
 			<key>ProcessorType</key>
-			<integer>1541</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -553,18 +555,18 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T4EYNJ1GJ</string>
+			<string>C02VC0P3J1GJ</string>
 			<key>SystemUUID</key>
-			<string>BD239F83-278C-49FC-A8AF-FF4F68B5DB5C</string>
+			<string>B8B49425-6A6B-407C-B999-9B4E9BE565D8</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>09/25/2021</string>
+			<string>01/05/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>447.40.12.0.0</string>
+			<string>429.80.1.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -574,7 +576,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C02703108GUJ0PGA8</string>
+			<string>C02736104GUJ0PGUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -584,15 +586,15 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02T4EYNJ1GJ</string>
+			<string>C02VC0P3J1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>FirmwareFeatures</key>
-			<data>dvUP/QgAAAA=</data>
+			<data>dvUP/QAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wgAAAA=</data>
+			<data>P/8f/wAAAAA=</data>
 			<key>PlatformFeature</key>
 			<integer>0</integer>
 			<key>ProcessorType</key>
@@ -608,9 +610,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T4EYNJ1GJ</string>
+			<string>C02VC0P3J1GJ</string>
 			<key>SystemUUID</key>
-			<string>BD239F83-278C-49FC-A8AF-FF4F68B5DB5C</string>
+			<string>B8B49425-6A6B-407C-B999-9B4E9BE565D8</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -807,7 +809,7 @@
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
-			<false/>
+			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<true/>
 			<key>ReloadOptionRoms</key>
