@@ -1,0 +1,6 @@
+sudo -s
+sudo nvram -c
+sudo nvram myvar=test
+exit
+
+nvram -p | grep -i myvar
