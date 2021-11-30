@@ -99,6 +99,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -524,11 +526,11 @@
 		<key>LegacyEnable</key>
 		<true/>
 		<key>LegacyOverwrite</key>
-		<true/>
+		<false/>
 		<key>LegacySchema</key>
 		<dict/>
 		<key>WriteFlash</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -543,7 +545,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02709270QXJ0PGCB</string>
+			<string>C02703200J9J0PG1M</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
@@ -555,9 +557,9 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TC4YYJ1GJ</string>
+			<string>C02T4NZNJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>CEDE8D44-D45B-486B-B7E2-2DD809B87037</string>
+			<string>EDE956AC-4761-485F-9CD2-A479E113A094</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -576,7 +578,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C02709270QXJ0PGCB</string>
+			<string>C02703200J9J0PG1M</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -586,7 +588,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02TC4YYJ1GJ</string>
+			<string>C02T4NZNJ1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
@@ -610,9 +612,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TC4YYJ1GJ</string>
+			<string>C02T4NZNJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>CEDE8D44-D45B-486B-B7E2-2DD809B87037</string>
+			<string>EDE956AC-4761-485F-9CD2-A479E113A094</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -801,7 +803,7 @@
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>EnableVectorAcceleration</key>
-			<false/>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -809,13 +811,15 @@
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
-			<true/>
+			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<true/>
+			<false/>
 			<key>ReloadOptionRoms</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
