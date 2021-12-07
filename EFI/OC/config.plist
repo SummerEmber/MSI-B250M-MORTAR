@@ -545,7 +545,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02703200J9J0PG1M</string>
+			<string>C027502704NJ0PG8C</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
@@ -557,9 +557,9 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T4NZNJ1GJ</string>
+			<string>C02VTAZGJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>EDE956AC-4761-485F-9CD2-A479E113A094</string>
+			<string>24AE61BF-C766-4C26-A87A-DD8FCFA32681</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -578,7 +578,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C02703200J9J0PG1M</string>
+			<string>C027502704NJ0PG8C</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -588,7 +588,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02T4NZNJ1GJ</string>
+			<string>C02VTAZGJ1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
@@ -612,9 +612,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T4NZNJ1GJ</string>
+			<string>C02VTAZGJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>EDE956AC-4761-485F-9CD2-A479E113A094</string>
+			<string>24AE61BF-C766-4C26-A87A-DD8FCFA32681</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
