@@ -11,5 +11,5 @@ Wi-Fi              Broadcom BCM94352HMB
 Monitor            FHD 1920x1080
 BIOS Verison       E7A69IMS.260 06/29/2018
 macOS Verison      Monterey 12.2
-OpenCore Version   0.7.7
+OpenCore Version   0.7.8
 ```
