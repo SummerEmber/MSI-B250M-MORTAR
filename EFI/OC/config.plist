@@ -392,6 +392,8 @@
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>DisableLinkeditJettison</key>
@@ -401,6 +403,8 @@
 			<key>ExtendBTFeatureFlags</key>
 			<true/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
@@ -482,8 +486,6 @@
 			<integer>2147483650</integer>
 			<key>LogModules</key>
 			<string>*</string>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -493,11 +495,7 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
-			<key>AllowToggleSip</key>
 			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
@@ -523,6 +521,40 @@
 			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array/>
@@ -568,7 +600,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C027283104NJ0PGJC</string>
+			<string>C02706101QXJ0PGAD</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
@@ -580,18 +612,18 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V20Q3J1GJ</string>
+			<string>C02T79Z4J1GJ</string>
 			<key>SystemUUID</key>
-			<string>91228C2A-50F0-44C6-B8BE-8EAAD6CA8A7A</string>
+			<string>566FFB31-C46D-4B79-86B3-B038E26AB13F</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>12/12/2021</string>
+			<string>03/16/2022</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>447.80.3.0.0</string>
+			<string>451.120.7.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -601,7 +633,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C027283104NJ0PGJC</string>
+			<string>C02706101QXJ0PGAD</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -611,7 +643,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02V20Q3J1GJ</string>
+			<string>C02T79Z4J1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
@@ -635,9 +667,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V20Q3J1GJ</string>
+			<string>C02T79Z4J1GJ</string>
 			<key>SystemUUID</key>
-			<string>91228C2A-50F0-44C6-B8BE-8EAAD6CA8A7A</string>
+			<string>566FFB31-C46D-4B79-86B3-B038E26AB13F</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
