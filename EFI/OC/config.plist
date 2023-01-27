@@ -457,6 +457,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -606,7 +608,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02731306J9J0PG1H</string>
+			<string>C02709130J9J0PGJC</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
@@ -618,9 +620,9 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V52YEJ1GJ</string>
+			<string>C02TCBZFJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>492AAE4A-53CF-48EB-B816-1B12278DDE27</string>
+			<string>C2C6AF8B-68ED-4A81-AC9C-0C3A356E8987</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -639,7 +641,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-BE088AF8C5EB4FA2</string>
 			<key>BoardSerialNumber</key>
-			<string>C02731306J9J0PG1H</string>
+			<string>C02709130J9J0PGJC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -649,7 +651,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02V52YEJ1GJ</string>
+			<string>C02TCBZFJ1GJ</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
@@ -673,9 +675,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V52YEJ1GJ</string>
+			<string>C02TCBZFJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>492AAE4A-53CF-48EB-B816-1B12278DDE27</string>
+			<string>C2C6AF8B-68ED-4A81-AC9C-0C3A356E8987</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
