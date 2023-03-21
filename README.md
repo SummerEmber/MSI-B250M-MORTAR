@@ -4,7 +4,7 @@ Model              MSI B250M MORTAR
 Mainboard          Intel B250M
 CPU                Intel Core i7-7700
 Memory             32G DDR4 3000MHz(2400MHz) (16G+8G+8G)
-Graphics           AMD Radeon RX 480 8GB & Intel HD Graphics 630
+Graphics           AMD Radeon RX6600XT 8GB & Intel HD Graphics 630
 Audio              Realtek ALC892
 Ethernet           Intel I219-V
 Wi-Fi              Broadcom BCM94352HMB
